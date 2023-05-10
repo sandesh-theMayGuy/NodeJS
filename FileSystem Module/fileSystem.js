@@ -1,12 +1,12 @@
 //Built-in modules
-//Global modules: built in modules doesn't need to be imported
+//built in modules doesn't need to be installed
 //external module : it needs to be installed through package manager
 
 const fs = require("fs");
 
 fs.writeFileSync("hello.txt","Hello Nepal"); //Syncrhonous writing to the file
 
-//If data is already present in the file, it gets overridden
+//If data is already present in the file, it gets overwritten
 //To append :
 
 fs.appendFileSync("hello.txt","I am Sandesh Khatiwada");
