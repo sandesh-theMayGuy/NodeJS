@@ -1,0 +1,19 @@
+{
+  "name": "static-middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "static": "^2.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
